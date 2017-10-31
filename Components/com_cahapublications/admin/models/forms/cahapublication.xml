@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset>
+		<field
+				name="id"
+				type="hidden"
+				/>
+		<field
+				name="title"
+				type="text"
+				label="COM_CAHAPUBLICATIONS_CAHAPUBLICATIONS_TITLE_LABEL"
+				description="COM_CAHAPUBLICATIONS_CAHAPUBLICATIONS_TITLE_DESC"
+				size="255"
+				class="inputbox"
+				default=""
+				/>
+		<field
+				name="author"
+				type="text"
+				label="COM_CAHAPUBLICATIONS_CAHAPUBLICATIONS_AUTHOR_LABEL"
+				description="COM_CAHAPUBLICATIONS_CAHAPUBLICATIONS_AUTHOR_DESC"
+				size="40"
+				class="inputbox"
+				default=""
+				/>
+		<field
+				name="artCode"
+				type="text"
+				label="COM_CAHAPUBLICATIONS_CAHAPUBLICATION_CODE_LABEL"
+				description="COM_CAHAPUBLICATIONS_CAHAPUBLICATION_CODE_DESC"
+				size="40"
+				class="inputbox"
+				default=""
+				/>		
+		<field
+				name="year"
+				type="number"
+				label="COM_CAHAPUBLICATIONS_CAHAPUBLICATION_YEAR_LABEL"
+				description="COM_CAHAPUBLICATIONS_CAHAPUBLICATION_YEAR_DESC"
+				min="1975"
+				max="9999"
+				default="2017"
+				/>
+		<field
+				name="f_author"
+				type="nationality"
+				label="COM_CAHAPUBLICATIONS_CAHAPUBLICATION_1ST_AUTHOR_NATIONALITY_LABEL"
+				description="COM_CAHAPUBLICATIONS_CAHAPUBLICATION_1ST_AUTHOR_NATIONALITY_DESC"
+				/>
+		<field
+				name="g_author"
+				type="radio"
+				label="COM_CAHAPUBLICATIONS_CAHAPUBLICATION_GERMAN_COAUTHOR_LABEL"
+				description="COM_CAHAPUBLICATIONS_CAHAPUBLICATION_GERMAN_COAUTHOR_DESC"
+				class="btn-group btn-group-yesno"
+				default="no"
+				>
+					<option value="yes">JYES</option>
+					<option value="no">JNO</option>
+		</field>
+		<field
+				name="s_author"
+				type="radio"
+				label="COM_CAHAPUBLICATIONS_CAHAPUBLICATION_SPANISH_COAUTHOR_LABEL"
+				description="COM_CAHAPUBLICATIONS_CAHAPUBLICATION_SPANISH_COAUTHOR_DESC"
+				class="btn-group btn-group-yesno"
+				default="no"
+				>
+					<option value="yes">JYES</option>
+					<option value="no">JNO</option>
+		</field>
+		<field
+				name="iaa_author"
+				type="radio"
+				label="COM_CAHAPUBLICATIONS_CAHAPUBLICATION_CSIC_AUTHOR_LABEL"
+				description="COM_CAHAPUBLICATIONS_CAHAPUBLICATION_CSIC_AUTHOR_DESC"
+				class="btn-group btn-group-yesno"
+				default="no"
+				>
+					<option value="yes">JYES</option>
+					<option value="no">JNO</option>
+		</field>
+		<field
+				name="mpia_author"
+				type="radio"
+				label="COM_CAHAPUBLICATIONS_CAHAPUBLICATION_MPG_AUTHOR_LABEL"
+				description="COM_CAHAPUBLICATIONS_CAHAPUBLICATION_MPG_AUTHOR_DESC"
+				class="btn-group btn-group-yesno"
+				default="no"
+				>
+					<option value="yes">JYES</option>
+					<option value="no">JNO</option>
+		</field>		
+		<field
+				name="telescopes"
+				type="textarea"
+				label="COM_CAHAPUBLICATIONS_CAHAPUBLICATION_TELESCOPES_LABEL"
+				description="COM_CAHAPUBLICATIONS_CAHAPUBLICATION_TELESCOPES_DESC"
+				rows="5"
+				cols="15">
+		</field>
+		<field
+				name="instruments"
+				type="textarea"
+				label="COM_CAHAPUBLICATIONS_CAHAPUBLICATION_INSTRUMENTS_LABEL"
+				description="COM_CAHAPUBLICATIONS_CAHAPUBLICATION_INSTRUMENTS_DESC"
+				rows="5"
+				cols="15">
+		</field>			
+		<field 
+			name="text" 
+			type="editor"
+			label="COM_CAHAPUBLICATIONS_CAHAPUBLICATION_FIELD_TEXT_LABEL" 
+			description="COM_CAHAPUBLICATIONS_CAHAPUBLICATION_FIELD_TEXT_DESC"
+			filter="JComponentHelper::filterText"
+			buttons="true" 
+		/>
+	</fieldset>
+</form>

@@ -1,0 +1,54 @@
+#table_publications th {
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+#table_publications .year {
+	text-align: center;
+}
+
+#article_search {
+	margin-bottom: 20px;	
+}
+
+#footnote {
+	margin-bottom: 30px;
+}
+
+#footnote_text {
+	box-shadow: 3px 3px 4pc #ccc;
+	-webkit-box-shadow: 3px 3px 4px #ccc;
+	-moz-box-shadow: 3px 3px 4px #ccc;
+	background-color: #eaeaea;
+	border: 1px solid #ccc;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	padding: 10px;
+	display: none;
+}
+
+.pub_text {
+	box-shadow: 3px 3px 4pc #ccc;
+	-webkit-box-shadow: 3px 3px 4px #ccc;
+	-moz-box-shadow: 3px 3px 4px #ccc;
+	background-color: #eaeaea;
+	border: 1px solid #ccc;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	padding: 10px;
+	display: none;
+}
+
+.pub_details {
+	display: none;
+}
+
+.element-invisible {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
